@@ -73,11 +73,12 @@ export function LandingPage() {
         className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-emerald-950 opacity-50 transition-transform duration-200 ease-out"
       />
 
-      {/* Background particles */}
-      <div className="absolute inset-0 overflow-hidden">
-        {Array.from({ length: 20 }).map((_, i) => (
-          <div
-            key={i}
+      {/* Background particles (Client-side only to prevent hydration mismatch) */}
+      {loaded && (
+        <div className="absolute inset-0 overflow-hidden">
+          {Array.from({ length: 20 }).map((_, i) => (
+            <div
+              key={i}
             className="absolute rounded-full bg-emerald-500 opacity-10"
             style={{
               width: Math.random() * 300 + 50,
@@ -88,8 +89,9 @@ export function LandingPage() {
               animationDelay: `${Math.random() * 5}s`,
             }}
           />
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
 
       {/* Content */}
       <motion.div initial={{ opacity: 0 }} animate={controls} className="relative z-10">
