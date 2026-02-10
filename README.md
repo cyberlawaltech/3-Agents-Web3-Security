@@ -1,10 +1,10 @@
 <div align="center">
-
+<h1>
 🛡️ ⛓️ [ W E B 3 . S E C U R I T Y ] ⛓️ 🛡️
 🛰️ MULTI-AGENT BLOCKCHAIN THREAT DETECTION
 Architect: Oluwaseun Lawal
 
-BLOCKCHAIN AUDIT | AGENTIC NEURAL OPS | DEFICONOMICS
+BLOCKCHAIN AUDIT | AGENTIC NEURAL OPS | DEFICONOMICS</h1>
 
 <div align="justify" style="border: 4px solid #00F2FF; padding: 25px; background-color: #0d1117; border-radius: 15px;">
 
@@ -26,7 +26,7 @@ The following table showcases the high-fidelity UI of the Web3 Security Multi-Ag
 <img src="options.jpg" alt="Agent Capabilities" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
 </td>
 <td style="padding: 10px; width: 33%;">
-<img src="hollogram.jpg" alt="Temika AI Assistant" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
+<img src="hollo.jpg" alt="Temika AI Assistant" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
 </td>
 </tr>
 <!-- ROW 2: PADDED DESCRIPTION SPACE -->
